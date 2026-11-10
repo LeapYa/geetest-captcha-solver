@@ -1,6 +1,6 @@
-# geetest-solver
+# 极验 v4 点选验证码识别库
 
-极验 v4 点选验证码求解库。支持 `word` / `icon` / `phrase` 三种题型，
+极验 v4 点选验证码识别库。支持 `word` / `icon` / `phrase` 三种题型，
 三种题型都已在真实站点（链家/贝壳）验证通过。
 
 纯推理只依赖 **onnxruntime + numpy + opencv**，不需要 torch / paddle。
