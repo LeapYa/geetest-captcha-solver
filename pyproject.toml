@@ -1,0 +1,23 @@
+project = "geetest-solver"
+version = "1.0.0"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geetest-solver"
+version = "1.0.0"
+description = "极验 v4 点选验证码求解库（word / icon / phrase）"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "opencv-python",
+]
+
+[project.optional-dependencies]
+ocr = ["paddlepaddle"]
+detect = ["ultralytics", "torch", "torchvision"]
+
+[tool.setuptools.packages.find]
+include = ["geetest_solver*"]

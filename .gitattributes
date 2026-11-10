@@ -1,0 +1,4 @@
+models/*.pdparams filter=lfs diff=lfs merge=lfs -text
+models/*.pt filter=lfs diff=lfs merge=lfs -text
+models/*.pkl filter=lfs diff=lfs merge=lfs -text
+models/*.pdiparams filter=lfs diff=lfs merge=lfs -text

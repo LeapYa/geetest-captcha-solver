@@ -1,0 +1,19 @@
+*.pyc
+__pycache__/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# 大文件用 Git LFS
+
+# 旧模型备份不打进仓库
+models/*.bak.onnx
+models/*_v1.bak.onnx
+# 旧版模型仅本地保留（约 120MB），不入库：geetest_solver_old/models/
+geetest_solver_old/models/
+
+# 博客文章不入库（属于个人内容）
+docs/BLOG_zh.md
